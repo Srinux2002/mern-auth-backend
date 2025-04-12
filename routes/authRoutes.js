@@ -17,6 +17,3 @@ authRouter.post("/login", login);
 authRouter.post("/logout", logout);
 authRouter.post("/send-verify-otp", userAuth, sendverifyOtp);
 authRouter.post("/verify-account", userAuth, verifyEmail);
-
-// authRouter.get("/all-users", userAuth, allUsers);
-// authRouter.get("/check-login", userAuth, checkLogin);
